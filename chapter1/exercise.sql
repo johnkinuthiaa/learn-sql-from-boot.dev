@@ -1,8 +1,0 @@
--- Let's begin building a table for CashPal database! Create the people table with the following fields:
---
---     id - Integer
---     tag - Text
---     name - Text
---     age - Integer
---     balance - Integer
---     is_admin - boolean

@@ -25,7 +25,9 @@ INSERT INTO people(id, tag, name, age, balance, is_admin) VALUES(
 INSERT INTO people(id, tag, name, age, balance, is_admin) VALUES(
                                                                     9,'customer','Mary',65,195300,false
                                                                 );
-
+-- sql injection
+SELECT * FROM people WHERE  id= 9 OR 1=1;
 SELECT * FROM people WHERE id=2;
+
 SELECT * FROM people;
 
